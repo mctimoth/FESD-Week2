@@ -55,4 +55,15 @@ for (i = 0;i <= 100;i ++){
 }
 var end1 = new Date().getTime();
 console.log("END 6d")
-
+ 
+for (i = 0;i <= 100;i ++){
+    if(i % 3 == 0  && i % 5 == 0){
+        console.log("Hello World");
+    }else if(i % 3 == 0) {
+        console.log("Hello");
+    }else if(i % 5 == 0){
+        console.log("World");
+    }else{
+        console.log(i);
+    }
+}
